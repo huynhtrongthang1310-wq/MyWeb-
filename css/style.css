@@ -1,1 +1,32 @@
 body { background: #fff; }
+/* Selector định dạng nền (background) cho toàn bộ trang */
+body {
+    background-color: #f0f8ff; /* Màu nền xanh nhạt nhã nhặn */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Selector định dạng chữ (color) */
+h1 {
+    color: #0056b3; /* Chữ tiêu đề màu xanh đậm */
+}
+
+p {
+    color: #333333; /* Chữ đoạn văn màu xám đậm dễ đọc */
+    line-height: 1.6;
+}
+
+/* Selector định dạng cho liên kết (thẻ a) */
+a {
+    color: #ff5722; /* Màu liên kết nổi bật */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột vào */
+}
